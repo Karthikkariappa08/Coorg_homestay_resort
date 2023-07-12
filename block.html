@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="with=device-width,initial-scale=1.0">
+<title>coorg homestay</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@200;300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+<section class=" sub-header">
+    <nav> 
+        <div class="nav-links" id="navLinks">
+            
+            
+            <i class="bi bi-x" onclick="hideMenu()"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+  <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+</svg></i>
+            <ul>
+            <li><a href="html.html">HOME</a></li>
+            <li><a href="course.html">PHOTOS</a></li>
+            <li><a href="contect.html">CONTACT</a></li>
+            <li><a href="block.html">COMMENTS</a></li>
+            <li><a href="review.html">REVIEW</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            </ul></div>
+        <i class="bi bi-list" onclick="showMenu()"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-list" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+</svg></i>
+    </nav>
+   <h1>Write a Review </h1>
+</section>
+    <!------blog page------>
+    <section class="blog-con">
+        <div class="row">
+            <div class="blog-left">
+                <img src="https://drive.google.com/uc?id=1D24nB-GIYYpENUZNEWNs3h86gzJ-BDz2"
+                     width=200px, height=200px>
+            <h2>online programs</h2>
+   <h4>please give us a review on our services .</h4>
+                </div> </div>
+        
+        <div class="comment-box">
+                <h3> Review </h3>
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter name">
+                     <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn"> Submit  </button>
+                </form>
+                </div>
+        
+    </section>
+   
+    <!------footer------>
+    <section class="footer">
+        <h4>ABOUT US</h4>
+        <p>As we are  the most trusted team in Coorg, Our we  provide personalized travel solutions for discerning travelers.</p>
+        <p> coorg homestay resort Designed and Developed by Karthik Kariappa</p>
+    </section>
+   
+   
+    <!------javascript for toggle menue--->
+    <script>
+        var navLink = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLink.style.right="0";
+             }
+ function hideMenu(){
+navLink.style.right="-200px";
+ }
+    </script>
+</body>
+</html>
